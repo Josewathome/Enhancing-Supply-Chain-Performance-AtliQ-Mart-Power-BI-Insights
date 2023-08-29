@@ -1,1 +1,62 @@
-## Project:
+Project Details: Supply Chain Analytics for AtliQ Mart
+
+Project Overview:
+
+As the newly appointed Data Analyst at AtliQ Mart's supply chain team, my role is to address the problem of declining customer satisfaction due to service issues, which has led to a loss of key customers not renewing their annual contracts. The objective is to develop a comprehensive dashboard that provides insights into the 'On-time' and 'In Full' delivery service levels for all customers on a daily basis. This dashboard will empower the management to respond promptly to service issues and ensure a higher level of customer satisfaction. The project involves creating metrics, building a dashboard, and extracting meaningful insights from the available data.
+
+Project Steps:
+
+1. Data Understanding and Preparation:
+
+Review the provided CSV files (dim_customers, dim_products, dim_date, dim_targets_orders, fact_order_lines, fact_orders_aggregate) and understand the structure and content of each file.
+Perform data cleaning, handle missing values, and ensure data integrity for further analysis.
+
+2. Metrics Creation:
+
+Utilize the business knowledge and the provided metrics list to create the required metrics:
+Total Order Lines
+Line Fill Rate (LIFR %)
+Volume Fill Rate (VOFR %)
+Total Orders
+On Time Delivery % (OT %)
+In Full Delivery % (IF %)
+On Time In Full % (OTIF %)
+On Time Target (Average of On-Time Target)
+In Full Target (Average of In-Full Target)
+On Time In Full Target (Average of OTIF Target)
+
+3. Dashboard Development:
+
+Use Microsoft Excel and Microsoft Power BI to design and build the interactive dashboard.
+Organize the dashboard with clear visualizations that present the metrics in a user-friendly manner.
+Include filters and slicers to allow users to interact with the data and focus on specific aspects.
+
+4. Dashboard Components:
+
+Visualize trends and performance metrics over time, allowing users to track improvements and identify patterns.
+Create dynamic visualizations for key metrics such as Line Fill Rate, Volume Fill Rate, On Time Delivery %, In Full Delivery %, and On Time In Full %.
+Display customer-specific metrics alongside overall metrics for comparative analysis.
+Represent performance against set targets for On Time, In Full, and On Time In Full using bar charts or KPI cards.
+
+5. Insights Generation:
+
+Apart from the listed metrics, extract additional insights from the data that can aid decision-making:
+Identify trends in customer behavior and preferences.
+Analyze if specific products or categories are more prone to service issues.
+Uncover correlations between delivery performance and geographical locations.
+Detect seasonal variations in service levels and customer orders.
+Highlight any correlation between order placement dates and service issues.
+
+6. User Documentation:
+
+Create documentation to guide users on how to navigate and utilize the dashboard effectively.
+Include explanations for each metric, visualization, and filter to ensure users understand the insights presented.
+
+7. Stakeholder Presentation:
+
+Present the completed dashboard and insights to the management team.
+Demonstrate how the dashboard can be used to monitor service levels, identify issues, and make informed decisions.
+
+Project Completion:
+
+Upon completion of the project, the management at AtliQ Mart will have access to a powerful supply chain analytics dashboard. This tool will provide real-time insights into the 'On-time' and 'In Full' delivery service levels, enabling swift identification and resolution of service issues. Additionally, the dashboard will facilitate data-driven decisions to improve customer satisfaction and support the company's expansion plans to other cities.
